@@ -41,5 +41,5 @@ while True:
         cv2.circle(img,(circles[x][0],circles[x][1]),3,(0,255,0),cv2.FILLED)
 
     cv2.imshow("Original Image ", img)
-    cv2.setMouseCallback("Original Image ", mousePoints)
+    cv2.setMouseCallback("Original Image ", mousePoints) #mouse callback
     cv2.waitKey(1)
