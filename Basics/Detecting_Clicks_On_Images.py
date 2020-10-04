@@ -22,17 +22,12 @@ counter = 0
 def mousePoints(event,x,y,flags,params):
     global counter
     if event == cv2.EVENT_LBUTTONDOWN:
-
         circles[counter] = x,y
         counter = counter + 1
         print(circles)
 
-
-
 img = cv2.imread('Resources/cards.jpg')
 while True:
-
-
     if counter == 4:
         width, height = 250,350
         pts1 = np.float32([circles[0],circles[1],circles[2],circles[3]])
