@@ -1,4 +1,4 @@
-
+#reading image from an image file
 ######################## READ IMAGE ############################
 # import cv2
 # # LOAD AN IMAGE USING 'IMREAD'
@@ -7,6 +7,7 @@
 # cv2.imshow("Lena Soderberg",img)
 # cv2.waitKey(0)
 
+#reading video from a video file
 ######################### READ VIDEO #############################
 # import cv2
 # frameWidth = 640
@@ -18,6 +19,8 @@
 #     cv2.imshow("Result", img)
 #     if cv2.waitKey(1) & 0xFF == ord('q'):
 #         break
+
+#reading video from  live video web cam 1
 ######################### READ WEBCAM  ############################
 import cv2
 frameWidth = 640
